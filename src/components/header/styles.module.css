@@ -1,0 +1,26 @@
+.header {
+  background-color: #3f5cc0;
+  color: rgba(9, 8, 8, 0.8);
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  margin-left: 130px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+.headerLinkContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.headerLink {
+  color: rgba(9, 8, 8, 0.8);
+  text-decoration: none;
+  padding: 9px 60px;
+  font-weight: bold;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}

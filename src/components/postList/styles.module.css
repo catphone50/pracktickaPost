@@ -1,0 +1,36 @@
+.postListContainer {
+  max-width: 1050px;
+  background-color: #7d9fff;
+  padding: 60px 130px;
+}
+
+.postListTitle {
+  text-align: center;
+  font-size: 36px;
+}
+
+.posts {
+  margin-top: 125px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.postListMorePost {
+  background-color: rgba(63, 91, 192, 0.8);
+  color: rgba(9, 8, 8, 0.8);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 15px;
+  margin-left: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+.buttonContainer button:not(:first-child) {
+  margin-left: 33px;
+}

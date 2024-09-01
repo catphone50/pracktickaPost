@@ -1,0 +1,8 @@
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #96dcff;
+  padding: 60px 130px;
+  display: flex;
+  column-gap: 100px;
+}

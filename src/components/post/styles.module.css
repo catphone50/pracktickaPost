@@ -1,0 +1,60 @@
+.post {
+  background-color: rgba(63, 91, 192, 0.8);
+  border-radius: 15px;
+  padding: 16px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postUser {
+  display: flex;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-right: 20px;
+}
+
+.userName {
+  text-wrap: nowrap;
+  line-height: 42px;
+}
+
+.photoUser {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+.postTextContainer {
+  padding: 0 50px;
+}
+
+.postTextContainer h3 {
+  font-size: 32px;
+}
+
+.postTextContainer p {
+  margin-top: 13px;
+}
+
+.postButtonContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.deleteBtn {
+  background-color: rgba(13, 61, 48, 0.4);
+  color: hsla(0, 6%, 3%, 0.4);
+  border: none;
+  padding: 9px 15px;
+}
+
+.postButtonContainer p {
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.postButtonContainer input {
+  margin-right: 10px;
+}
